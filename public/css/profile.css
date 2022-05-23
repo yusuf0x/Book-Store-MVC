@@ -1,0 +1,155 @@
+.profile_container {
+  margin-top: 50px;
+    padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;margin-right: auto;
+}
+div#main-card {
+    max-width: 400px;
+    box-shadow: -5px 2px 18px 4px #ccc;
+    margin: auto;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.cover-photo {
+    background: #0ab581;
+    width: 400px;
+    height: 100px;
+}
+.cover-photo .image1 {
+      width: 100%;
+    height: 100px;
+}
+
+.photo {
+    background: #f9f9f9;
+    width: 400px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.photo .image {
+    position: relative;
+    top: -50px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    box-shadow: -1px 1px 11px 6px rgba(189, 172, 172, 0.33);
+    /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+}
+.content_user {
+    background: #f9f9f9;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    top: -35px;
+}
+
+.contact_user {
+      margin-top: 20px;
+    background: #30354d;
+    border-radius: 0 0 5px 5px;
+    width: 400px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -35px;
+}
+
+h2.name,
+h3.phone,
+.email,
+.address-1 {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+h2.name {
+    padding-bottom: 20px;
+}
+h3.phone {
+    padding-bottom: 10px;
+}
+.i-css {
+    font-size: 22px;
+    padding: 10px;
+    text-decoration: none;
+    color: #0ab581;
+}
+.i-css:hover {
+    color: white;
+}
+.address {
+  color: black;
+  cursor: pointer;
+}
+.address:hover {
+  color: #0ab581;
+}
+.email {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.email .email-href {
+  color: black;
+}
+
+.generate form .button-gen {
+      width: 100%;
+    color: white;
+    background-color: #50d8af;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div#main-card:hover {
+    -webkit-animation-name: pulse;  
+    animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+    @-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+    @keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+} 

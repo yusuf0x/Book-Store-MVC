@@ -1,0 +1,71 @@
+
+.login-container {
+    min-height: 500px;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgb(0 0 0 / 14%);
+    margin-bottom: 20px;
+}
+.login-container .error {
+	    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: red;
+    border: 1px solid red;
+    padding: 37px 15px;
+    color: white;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    height: 40px;
+    line-height: 5px;
+    /* display: none; */
+    /* visibility: hidden;*/
+}
+
+
+.login-container h1 {
+	 padding-top: 40px;
+     color: #8C55AA;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+      font-size: 23px;
+      text-align: center;
+      margin-bottom: 10px;
+}
+
+
+.login-container form input {
+	width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+	
+
+}
+.login-container form #forget,
+.login-container form #submit  {
+	margin-top: 5px;
+	float: left;
+	background-color: #50d8af;
+	border: 1px solid #50d8af;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
