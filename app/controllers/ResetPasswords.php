@@ -34,31 +34,14 @@
 	        // $this->mail->Host = "localhost";
 	        // $this->mail->SMTPAuth = false;
 	        // $this->mail->Port = 25;
-	        // $this->mail->Username = '8181a0ad24174c';
-	        // $this->mail->Password = '2105c85b93bab0';
+	        // $this->mail->Username = '';
+	        // $this->mail->Password = '';
 
 		}
 		public function index(){
-			// var_dump($_SERVER['REQUEST_METHOD']);
-			// if($_SERVER['REQUEST_METHOD'] == 'POST'){
-			//     switch($_POST['type']){
-			//         case 'send':
-			//             $init->sendEmail();
-			//             break;
-			//         case 'reset':
-			//             $init->resetPassword();
-			//             break;
-			//         default:
-			//         header("location: ../index.php");
-			//     }
-			// }else{
-			//     header("location: ../index.php");
-			// }
 			$this->view("users/reset_password");
 		}
 		public function sendEmail(){
-			// var_dump($_SERVER['REQUEST_METHOD']);
-			echo "<br><br>sendEmail";
 			//Sanitize POST data
 	        // $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
 	        $usersEmail = trim($_POST['usersEmail']);
@@ -97,7 +80,7 @@
 	        $message .= "<p>Here is your password reset link: </p>";
 	        $message .= "<a href='".$url."'>".$url."</a>";
 
-	        // $this->mail->setFrom('TheBoss@gmail.com','admin');
+	        // $this->mail->setFrom('T','admin');
 	        // $this->mail->isHTML(true);
 	        // $this->mail->Subject = $subject;
 	        // $this->mail->Body = $message;
@@ -105,7 +88,7 @@
 
 	        // $this->mail->send();
 
-	        // flash("reset", "Check your email", 'form-message form-message-green');
+	       
 	        // header("location:".URLROOT."/ResetPasswords/index");
 	        // exit();
 	        // $this->view("users/create_new_password");

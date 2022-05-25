@@ -6,41 +6,6 @@
 ?>
 
 
-<!-- // session_start();
-// include 'connectDB.php';
-// $sql = "USE Books";
-// $pdo->query($sql);
-
-// if(isset($_GET['book_id_detail']) ){
-//     $sql = "SELECT * FROM Book WHERE BookID = '".$_GET["book_id_detail"]."'";
-//     $result = $pdo->query($sql);
-//     while($row = $result->fetch(PDO::FETCH_ASSOC)){
-//         $BookTitle = $row["BookTitle"];
-//         $Author = $row['Author'];
-//         $image = $row['Image'];
-//         $type = $row['Type'];
-//         $price = $row['Price'];
-//         $bookid = $row['BookID'];
-//     }
-//     // header("Location:".htmlspecialchars($_SERVER["PHP_SELF"]));
-    
-
-// }
-// if(isset($_GET['quantity'])){
-//     $sql = "SELECT * FROM Book WHERE BookID = ".$_GET['book_id_detail']."";
-//     $result = $pdo->query($sql);
-
-//     while($row = $result->fetch(PDO::FETCH_ASSOC)){
-//         $bookID = $row['BookID'];
-//         $quantity = $_POST['quantity'];
-//         $price = $row['Price'];
-//     }
-//     $sql = "INSERT INTO Cart(BookID, Quantity, Price, TotalPrice) VALUES('".$bookID."', ".$quantity.", ".$price.", Price * Quantity)";
-//     $pdo->query($sql);
-
-
-// } -->
-
 
     <div class="landing">
         <div class="blabla">

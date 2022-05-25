@@ -25,36 +25,6 @@
 	    	return $this->db->single();
 	    }
 	    public function getAllBooks(){
-	    	// if (isset($_GET['book_name']) || isset($_GET['type']) || isset($_GET['author'])) {
-	    	// 	$this->db->query("SELECT COUNT(*) FROM book WHERE book_title=:book_name or type=:type or author=:author");
-	    	// 	$this->db->bind(':book_name',$_GET['book_name']);
-	    	// 	$this->db->bind(':type',$_GET['type']);
-	    	// 	$this->db->bind(':author',$_GET['author']);
-	    	// 	$this->db->execute();
-	    	// 	$total_rows = $this->db->fetch_Column();
-	    	// 	var_dump($total_rows);
-	    	// 	$total_rows = strip_tags($total_rows);
-	    	// 	// $total_pages = (int)$total_rows * (int)$limit;
-	    	// 	$this->total_pages =2 ;
-
-	    	// 	$book_name = $_GET["book_name"];
-      //           $type_book = $_GET["type"];
-      //           $Author = $_GET["author"];
-	    	// 	// print($total_rows);
-	    	// }else{
-	    	// 	$this->db->query("SELECT COUNT(*) FROM book");
-	    	// 	$this->db->execute();
-	    	// 	// $this->total_rows = $this->db->fetch_Column();
-	    	// 	// $this->total_rows = strip_tags($this->total_rows);
-	    	// 	// $this->total_pages = (int)$this->total_rows / $this->$limit;
-	    	// 	// $this->total_pages = 2;
-	    	// }
-	    	// if (!isset($_GET['page'])) {
-	    	// 	$page_number = 1;
-	    	// }else{
-	    	// 	$page_number = $_GET['page'];
-	    	// }
-	    	// $initial_page = ($page_number -1 )* $limit;
 	    	if (isset($_GET['book_name']) || isset($_GET['type']) || isset($_GET['author'])) {
 	    		// for pagination
 	    		// $this->db->query("SELECT * FROM book WHERE book_title=:book_name or type=:type or author=:author LIMIT :initial_page,:limit");

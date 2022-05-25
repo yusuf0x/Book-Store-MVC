@@ -113,11 +113,6 @@
         <div class="container">
             <div class="contact">
                 <h1>Contact Us </h1> 
-           <!--      <p>Address </p>
-                <p>marhba bik 3andna</p>
-                <p><i class="fas fa-map-marker-alt"></i>  Morocco Dukala </p>
-                <p><i class="fas fa-phone-alt"></i>   00000000000000000 </p>
-                <p><i class="fas fa-envelope"></i> Blabla@gmail.com</p> -->
             </div>
             <div class="real-form">
                <form action="">

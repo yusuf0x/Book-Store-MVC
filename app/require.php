@@ -2,10 +2,6 @@
 	ini_set('display_startup_errors',1);
 	ini_set('display_errors',1);
 	error_reporting(-1);
-	// use PHPMailer\PHPMailer\PHPMailer;
-	// use PHPMailer\PHPMailer\PHPMailer;
- //    use PHPMailer\PHPMailer\SMTP;
- //    use PHPMailer\PHPMailer\Exception;
 
 	//Require libraries
 	// require_once 'PHPMailer/src/PHPMailer.php';
