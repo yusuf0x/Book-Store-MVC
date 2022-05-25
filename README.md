@@ -19,10 +19,16 @@ Book Store using MVC architecture
 ### Home page
 ![home]()
 ### Books Listing Page
+![book listing]()
 ### User Authentification Pages
+![Login]()
+![Register]()
+![Profile]()
 ### Book Detail 
+![Book_detail]()
 ### Cart Page
+![cart]()
 ### Order Page
-
+![order]()
 
 
