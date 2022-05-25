@@ -16,5 +16,6 @@ Book Store using MVC architecture
 7. Orders page
 8. Print order in Pdf file 
 # Screenshots
+### Home page
 
 
