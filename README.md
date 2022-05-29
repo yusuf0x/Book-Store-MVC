@@ -17,13 +17,13 @@ Book Store using MVC architecture
 8. Print order in Pdf file 
 # Screenshots
 ### Home page
-![home]()
+![home](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/home.png)
 ### Books Listing Page
-![book listing]()
+![book listing](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/book-listing.png)
 ### User Authentification Pages
-![Login]()
-![Register]()
-![Profile]()
+![Login](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/login.png)
+![Register](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/register.png)
+![Profile](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/profile.png)
 ### Book Detail 
 ![Book_detail]()
 ### Cart Page
