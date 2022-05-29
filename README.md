@@ -25,10 +25,10 @@ Book Store using MVC architecture
 ![Register](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/register.png)
 ![Profile](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/profile.png)
 ### Book Detail 
-![Book_detail]()
+![Book_detail](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/book-detail.png)
 ### Cart Page
-![cart]()
+![cart](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/cart.png)
 ### Order Page
-![order]()
+![order](https://github.com/yusuf0x/Book-Store-MVC/blob/main/screenshot/order.png)
 
 
